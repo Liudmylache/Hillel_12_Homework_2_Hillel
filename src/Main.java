@@ -52,7 +52,7 @@ public class Main {
         for (int i = array.length; i > 1; i--)
         {
             Random random = new Random();
-            int j = random.nextInt(i); // генерируем случайный индекс
+            int j = random.nextInt(i);
             String temp = array[i - 1];
             array[i - 1] = array[j];
             array[j] = temp;
